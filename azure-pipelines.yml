@@ -11,9 +11,11 @@ pool:
 
 steps:
 - script: echo Hello, world! 67657575gfgdd
+               write dddd
   displayName: 'Run a one-line script dev'
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script dev'
+
