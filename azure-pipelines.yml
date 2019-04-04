@@ -5,7 +5,7 @@
 pr:
   autoCancel:true
   branches：
-   include:["dev"]
+   include:"dev"
 trigger:
 - dev
 
